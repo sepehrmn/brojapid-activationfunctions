@@ -1,1 +1,1 @@
-# mahmoudian-2020-brojapid-activationfunctions
+# brojapid-activationfunctions
