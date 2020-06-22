@@ -127,7 +127,7 @@ if __name__ == '__main__':
                 modulatory_X__R_C[(1, r, c)] = modulatory_firing
                 modulatory_X__R_C[(0, r, c)] = modulatory_silent
 
-        # Activation function 3: additive and modulatory
+        # Activation function 3: new modulatory
         both_X__R_C = {}
         for r, val_rspike in spiking_r.items():
             for c, val_cspike in spiking_c.items():
