@@ -1,11 +1,9 @@
-# mahmoudian-2020-rescience
+# Broja-PID measures for mahmoudian-2020-rescience
 Sepehr Mahmoudian's replication of Smyth, Phillips, Kay 1996
 
 This repository contains a successful replication of the Smyth paper for the ReScience C journal. 
 
 ---
-
-There are no special dependencies or computing resources required to run the code.
 
 Tested with:
 ```
@@ -13,6 +11,9 @@ Python 3.8.1
 numpy 1.18
 scipy 1.4  
 matplotlib 3.1.3
+jpype1
+ecos
+IDTxl
 ```
 To install the requirements above one could simply use ```pip install -r requirements.txt``` after getting the correct python version.
 
