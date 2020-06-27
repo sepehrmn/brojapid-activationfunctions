@@ -1,6 +1,8 @@
 # Broja-PID measures for mahmoudian-2020-rescience
 Sepehr Mahmoudian's replication of Smyth, Phillips, Kay 1996
 
+Currently cleaning the repo and migrating from old PID estimator to a new one
+
 ---
 
 Tested with:
@@ -21,8 +23,6 @@ It's simple to run the code:
 ```
 python main.py
 ```
-
-The three figures will be displayed in a sequence.
 
 ---
 
