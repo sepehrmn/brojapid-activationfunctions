@@ -1,5 +1,6 @@
 # Broja-PID measures for mahmoudian-2020-rescience
-Sepehr Mahmoudian's replication of Smyth, Phillips, Kay 1996
+
+BROJA-PID additions for 10.5281/zenodo.3885793
 
 Currently cleaning the repo and migrating from old PID estimator to a new one
 
