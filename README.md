@@ -1,4 +1,4 @@
-# brojapid-activationfunctions
+# Activation Functions with BROJA's PID
 
 BROJA PID [1] results for [2]. Currently changing the code to work with the Tartu estimator. Originally written to work with the Frankfurt estimator.
 
