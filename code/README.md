@@ -14,7 +14,7 @@ scipy 1.4
 matplotlib 3.1.3
 jpype1
 ecos
-IDTxl
+IDTxl 1.1
 ```
 To install the requirements above one could simply use ```pip install -r requirements.txt``` after getting the correct python version.
 
