@@ -16,7 +16,7 @@ jpype1
 ecos
 IDTxl 1.1
 ```
-To install the requirements above one could simply use ```pip install -r requirements.txt``` after getting the correct python version. One can get IDTxl from https://github.com/pwollstadt/IDTxl
+To install the requirements above except IDTxl one could simply use ```pip install -r requirements.txt``` after getting the correct python version. One can get IDTxl from https://github.com/pwollstadt/IDTxl
 
 ---
 
