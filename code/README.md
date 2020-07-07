@@ -12,7 +12,7 @@ Python 3.8.1
 numpy 1.18
 scipy 1.4  
 matplotlib 3.1.3
-jpype1
+jpype1 0.7.5
 ecos
 IDTxl 1.1
 ```
