@@ -127,13 +127,12 @@ if __name__ == '__main__':
                 modulatory_X__R_C[(1, r, c)] = modulatory_firing
                 modulatory_X__R_C[(0, r, c)] = modulatory_silent
 
-        # Activation function 3: new modulatory
+        # Activation function 3: additive and modulatory
         both_X__R_C = {}
         for r, val_rspike in spiking_r.items():
             for c, val_cspike in spiking_c.items():
-                k1 = 0.5
-                k2 = 2.0
-                vals_both = val_rspike *(k1 + (1 - k1) * np.exp(k2 * val_rspike * val_cspike)) 
+
+                vals_both = 0.5 * val_rspike * (1 + np.exp(val_rspike * val_cspike)) + val_cspike
                 both_firing = expit(vals_both)
                 both_silent = 1 - both_firing
                 both_X__R_C[(1, r, c)] = both_firing

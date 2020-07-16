@@ -69,7 +69,7 @@ def plot_fig1(results):
     _plot_fig1_subplot('(c)',  'I_X_C__R', 3, results_zero_c, results_one_c)
 
     plt.subplots_adjust(wspace=None, hspace=0.2)
-    plt.savefig('./fig1')
+    plt.show()
 
     return
 
@@ -84,7 +84,7 @@ def _plot_fig2_subplot(label, metric, number, function, results):
     :param results: structured array - results of the analysis
     :return: None
     """
-    ax = plt.subplot(1, 3, number, projection='3d')
+    ax = plt.subplot(3, 1, number, projection='3d')
     ax.set_xlabel('r', labelpad=15, fontsize=22)
     ax.set_ylabel('c', labelpad=15, fontsize=22)
     ax.xaxis.set_tick_params(labelsize=11)
@@ -99,7 +99,7 @@ def _plot_fig2_subplot(label, metric, number, function, results):
 
     ax.set_title(label, fontsize=19, fontweight='bold', y=0.1, x=0.1)
     ax.plot_wireframe(X, Y, Z, color="grey")
-    ax.view_init(40, 220)
+    ax.view_init(45, 300)
     plt.tight_layout()
 
     return
@@ -111,14 +111,14 @@ def plot_fig2(results):
     :param results: structured array - results of the analysis
     :return: None
     """
-    plt.figure(figsize=(20, 6.8))
+    plt.figure(figsize=(9, 10.8))
 
-    _plot_fig2_subplot("(a)", 'I_X_R_C', 1, 'both', results)
-    _plot_fig2_subplot("(b)", 'I_X_R__C', 2, 'both', results)
+    _plot_fig2_subplot("(a)", 'I_X_C__R', 1, 'additive', results)
+    _plot_fig2_subplot("(b)", 'I_X_C__R', 2, 'modulatory', results)
     _plot_fig2_subplot("(c)", 'I_X_C__R', 3, 'both', results)
 
     plt.subplots_adjust(wspace=None, hspace=0.2)
-    plt.savefig('./fig2')
+    plt.show()
 
     return
 
