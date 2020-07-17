@@ -2,8 +2,6 @@
 
 BROJA PID [1] results for [2]. Currently changing the code to work with the Tartu estimator. Originally written to work with the Frankfurt estimator.
 
-Should be ready for use in about a week.
-
 
 [1] Bertschinger, N., Rauh, J., Olbrich, E., Jost, J., & Ay, N. (2014). Quantifying unique information. Entropy, 16(4), 2161–2183. https://doi.org/10.3390/e16042161
 
