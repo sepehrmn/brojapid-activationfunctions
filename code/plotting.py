@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 
 def _plot_subplot(label, metric, number, function, results):
-    """Plot a subplot for figure 2.
+    """Plot a subplot.
 
     :param label: string - label of the subplot
     :param metric: string - information metric
@@ -35,7 +35,7 @@ def _plot_subplot(label, metric, number, function, results):
 
 
 def plot_surfaceplots(results):
-    """Plot figure 2. Calls "_plot_fig2_subplot"
+    """Plot surface plots. Calls "_plot_subplot"
 
     :param results: structured array - results of the analysis
     :return: None
