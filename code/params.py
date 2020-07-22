@@ -24,8 +24,3 @@ n_functions = 4  # number of activation functions
 increments = 0.1
 r_magnitudes = np.arange(0., 10. + increments, increments)  # The range of r magnitudes
 c_magnitudes = np.arange(0., 10. + increments, increments)  # The range of c magnitudes
-
-
-# fig 3
-
-n_trials = 100
