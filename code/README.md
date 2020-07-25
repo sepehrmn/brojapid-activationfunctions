@@ -22,6 +22,7 @@ It's simple to run the code:
 ```
 python main.py
 ```
+The results will be saved as "classical_terms.png" and "PID_terms.png".
 
 ---
 
