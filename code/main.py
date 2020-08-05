@@ -1,7 +1,6 @@
 import itertools
 import numpy as np
 from scipy.special import expit
-import params
 import analysis
 import plotting
 

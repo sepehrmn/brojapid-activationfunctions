@@ -37,22 +37,22 @@ def cal_mis(R, C, X, X__R, X__C, X__R_C, RCX):
         I_X_C__R += val_rcx * math.log(val_x__r_c / val_x__r, 2)
 
     
-    # solver_args = {'keep_solver_object': False}
-    # retval = synergy_tartu.pid(pdf_dirty=pdf,
-    #                                cone_solver='ECOS',
-    #                                output=int(False),
-    #                                **{'keep_solver_object': False})
+        # solver_args = {'keep_solver_object': False}
+        # retval = synergy_tartu.pid(pdf_dirty=pdf,
+        #                                cone_solver='ECOS',
+        #                                output=int(False),
+        #                                **{'keep_solver_object': False})
 
-    retval = synergy_tartu.pid(pdf_dirty=RCX)
-    
-    results = {'I_X_R_C': I_X_R_C,
-               'I_X_R__C': I_X_R__C,
-               'I_X_C__R': I_X_C__R,
-               'shd': retval['SI'],
-               'syn': retval['CI'],
-               'unq_R': retval['UIY'],
-               'unq_C': retval['UIZ'],
-               }
+        retval = synergy_tartu.pid(pdf_dirty=RCX)
+        
+        results = {'I_X_R_C': I_X_R_C,
+                'I_X_R__C': I_X_R__C,
+                'I_X_C__R': I_X_C__R,
+                'shd': retval['SI'],
+                'syn': retval['CI'],
+                'unq_R': retval['UIY'],
+                'unq_C': retval['UIZ'],
+                }
     
 
     return results
