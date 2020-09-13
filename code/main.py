@@ -168,7 +168,7 @@ if __name__ == '__main__':
             X = {0: 0, 1: 0}
             RCX = {}
             for x, c, r in itertools.product(X, C, R):
-                RCX[(r, c, x)] = RC[(r, c)] * X__R_C[(x, r, c)]
+                RCX[(r, c, x)] = float(RC[(r, c)] * X__R_C[(x, r, c)])
             functions_RCX[function] = RCX
 
             # P(X)

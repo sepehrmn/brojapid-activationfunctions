@@ -40,10 +40,10 @@ def cal_mis(R, C, X, X__R, X__C, X__R_C, RCX):
         # solver_args = {'keep_solver_object': False}
         # retval = synergy_tartu.pid(pdf_dirty=pdf,
         #                                cone_solver='ECOS',
-        #                                output=int(False),
+        #              S                  output=int(False),
         #                                **{'keep_solver_object': False})
-
-        retval = synergy_tartu.pid(pdf_dirty=RCX)
+            
+        retval = synergy_tartu.pid(RCX)
         
         results = {'I_X_R_C': I_X_R_C,
                 'I_X_R__C': I_X_R__C,
