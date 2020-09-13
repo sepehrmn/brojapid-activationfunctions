@@ -76,7 +76,7 @@ if __name__ == '__main__':
     np.random.seed(77)
 
     # number of results
-    n_results = params.r_magnitudes.shape[0] * params.c_magnitudes.shape[0] * params.n_metrics * params.n_functions
+    n_results = params.r_magnitudes.shape[0] * params.c_magnitudes.shape[0] * 7 * params.n_functions 
     # It is OK to for convenience put everything in one big structured array
     analytical_results = np.zeros(n_results, dtype=[('activation_function', 'O'),
                                          ('information_metric', 'O'),
@@ -190,5 +190,8 @@ if __name__ == '__main__':
                analytical_results[idx] = (function, metric, rmag, cmag, value)
                idx += 1
 
-    plotting.plot_surfaceplots(analytical_results)
-
+    plotting.plot_classical_surfaceplots(analytical_results)
+    plotting.plot_pid_surfaceplots(analytical_results, "additive")
+    plotting.plot_pid_surfaceplots(analytical_results, "modulatory")
+    plotting.plot_pid_surfaceplots(analytical_results, "both")
+    

@@ -5,15 +5,6 @@ c__r = 0.889972
 firing_value = 1
 not_firing_value = -1
 
-#  parameters used for fig 1 and 2
-
-# Metrics computed for each activation function
-# 'H_X'
-# 'I_X_R__C'
-# 'I_X_C__R'
-# 'I_X_R_C'
-n_metrics = 4  # number of metrics to calculate
-
 # Activation functions for the output neuron
 # 'additive'
 # 'modulatory'

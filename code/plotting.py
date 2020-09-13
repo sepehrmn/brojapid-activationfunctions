@@ -35,7 +35,7 @@ def _plot_subplot(label, metric, total_number, number, function, results):
     return
 
 
-def plot_surfaceplots(results):
+def plot_classical_surfaceplots(results):
     """Plot surface plots. Calls "_plot_subplot"
 
     :param results: structured array - results of the analysis
@@ -49,6 +49,23 @@ def plot_surfaceplots(results):
 
     plt.subplots_adjust(wspace=None, hspace=0.2)
     plt.savefig("classical_terms.png")
+
+    return
+
+def plot_pid_surfaceplots(results, activation_function):
+    """Plot surface plots. Calls "_plot_subplot"
+
+    :param results: structured array - results of the analysis
+    :return: None
+    """
+    plt.figure(figsize=(25, 11))
+
+    _plot_subplot("unique R", 'unq_R', 4, 1, activation_function, results)
+    _plot_subplot("unique C", 'unq_C', 4, 2, activation_function, results)
+    _plot_subplot("shared", 'shd', 4, 3, activation_function, results)
+    _plot_subplot("synergistic", 'syn', 4, 4, activation_function, results)
+    plt.subplots_adjust(wspace=None, hspace=0.2)
+    plt.savefig("pid_terms_" + activation_function + ".png")
 
     return
 
