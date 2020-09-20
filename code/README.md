@@ -22,7 +22,7 @@ It's simple to run the code:
 ```
 python main.py
 ```
-The results will be saved as "classical_terms.png" and 3 "PID_terms_<activation_function>.png"s.
+The results will be saved as "classical_terms.png" and 3 png images of PID results for each activation function.
 
 ---
 
