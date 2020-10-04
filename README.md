@@ -1,6 +1,6 @@
 # Activation Functions with BROJA's PID
 
-BROJA PID [1] for [2]. PID results of different activation fucntions can be compared. View "code" for instructions. 
+Partial information decomposition (PID) [1] for [2]. PID results of different activation fucntions can be compared. View "code" for instructions. 
 
 [1] Bertschinger, N., Rauh, J., Olbrich, E., Jost, J., & Ay, N. (2014). Quantifying unique information. Entropy, 16(4), 2161–2183. https://doi.org/10.3390/e16042161
 
