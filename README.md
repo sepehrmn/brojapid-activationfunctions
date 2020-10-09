@@ -4,7 +4,8 @@ BROJA-PID additions for [10.5281/zenodo.3885793](https://zenodo.org/record/38857
 
 ---
 
-Tested with:
+# Requirements
+
 ```
 Python 3.8.1
 numpy 1.18
@@ -18,7 +19,8 @@ To install the requirements above except IDTxl one could simply use ```pip insta
 
 ---
 
-It's simple to run the code:
+# Running the code
+
 ```
 python main.py
 ```
