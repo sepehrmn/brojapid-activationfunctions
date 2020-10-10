@@ -1,6 +1,6 @@
 # Activation Functions with BROJA's PID
 
-BROJA-PID additions for [10.5281/zenodo.3885793](https://zenodo.org/record/3885793) PID results of different activation functions can be compared. 
+BROJA-PID additions for [10.5281/zenodo.3885793](https://zenodo.org/record/3885793). PID results of different activation functions can be compared. 
 
 # Requirements
 
@@ -25,7 +25,7 @@ The results will be saved as "classical_terms.png" and 3 png images of PID resul
 
 # Adding new functions
 
-The fastest way to implement and investigate a [new/custom] activation function would be to replace one of the four activation functions in main.py. Probably that would be the fourth activation function (no context) and then renaming it in functions_X__R_C dictionary. To have all four and your activation function, first adjust the n_functions in params.py then put it in the main loop where result of the activation functions are calculated and finally add it to the functions_X__R_C dictionary.
+The fastest way to implement and investigate a [new/custom] activation function would be to replace one of the four activation functions in main.py. Probably that would be the fourth activation function (no context) and then renaming it in ```functions_X__R_C```. To have all four and your activation function, first adjust ```n_functions``` in params.py then put it in the main loop where result of the activation functions are calculated and finally add it to ```functions_X__R_C```.
 
 # References
 
