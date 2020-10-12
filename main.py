@@ -194,4 +194,5 @@ if __name__ == '__main__':
     plotting.plot_pid_surfaceplots(analytical_results, "additive")
     plotting.plot_pid_surfaceplots(analytical_results, "modulatory")
     plotting.plot_pid_surfaceplots(analytical_results, "both")
+    plotting.plot_pid_surfaceplots(analytical_results, "nocontext")
     
