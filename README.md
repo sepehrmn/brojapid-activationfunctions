@@ -1,10 +1,9 @@
 # Activation Functions with BROJA's PID
 
-BROJA-PID additions for [10.5281/zenodo.3885793](https://zenodo.org/record/3885793) PID results of different activation functions can be compared. 
+BROJA-PID additions for [10.5281/zenodo.3885793](https://zenodo.org/record/3885793). PID results of different activation functions can be compared. 
 
----
+# Requirements
 
-Tested with:
 ```
 Python 3.8.1
 numpy 1.18
@@ -16,20 +15,18 @@ IDTxl 1.1
 ```
 To install the requirements above except IDTxl one could simply use ```pip install -r requirements.txt``` after getting the correct python version. IDTxl can be obtained from https://github.com/pwollstadt/IDTxl.
 
----
+# Running the code
 
-It's simple to run the code:
 ```
 python main.py
 ```
 The results will be saved as "classical_terms.png" and 3 png images of PID results for each activation function.
 
----
 
+# Adding new functions
 
-The fastest way to implement and investigate a [new/custom] activation function would be to replace one of the four activation functions in main.py. Probably that would be the fourth activation function (no context) and then renaming it in functions_X__R_C dictionary. To have all four and your activation function, first adjust the n_functions in params.py then put it in the main loop where result of the activation functions are calculated and finally add it to the functions_X__R_C dictionary.
+The fastest way to implement and investigate a [new/custom] activation function would be to replace one of the four activation functions in main.py. Probably that would be the fourth activation function (no context) and then renaming it in ```functions_X__R_C```. To have all four and your activation function, first adjust ```n_functions``` in params.py then put it in the main loop where result of the activation functions are calculated and finally add it to ```functions_X__R_C```.
 
----
 # References
 
 Sepehr Mahmoudian. (2020). [Re] Measures for investigating the contextual modulation of information transmission. Rescience C, 6(3), #2. http://doi.org/10.5281/zenodo.3885793
