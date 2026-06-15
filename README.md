@@ -98,7 +98,14 @@ brojapid-activationfunctions/
 
 ## Citation
 
-If you use this code, please cite it using the metadata in [`CITATION.cff`](CITATION.cff).
+If you use this software, please cite it as:
+
+> Mahmoudian, S. (2026). brojapid-activationfunctions: BROJA-PID Analysis of Neural Activation Functions. Zenodo. [doi:10.5281/zenodo.20707456](https://doi.org/10.5281/zenodo.20707456)
+
+To cite all versions, use [doi:10.5281/zenodo.20707455](https://doi.org/10.5281/zenodo.20707455).
+
+Full metadata is available in [`CITATION.cff`](CITATION.cff).
+
 
 ## License
 

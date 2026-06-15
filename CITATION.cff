@@ -8,6 +8,8 @@ authors:
     email: sepehr.mahmoudian@gmail.com
 license: MIT
 repository-code: "https://github.com/sepehrmn/brojapid-activationfunctions"
+doi: "10.5281/zenodo.20707456"
+url: "https://zenodo.org/doi/10.5281/zenodo.20707456"
 abstract: "BROJA Partial Information Decomposition (PID) additions for investigating contextual modulation of information transmission across neural activation functions. Companion code for the ReScience C reproduction (10.5281/zenodo.3885793)."
 keywords:
   - "partial information decomposition"
